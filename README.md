@@ -16,7 +16,7 @@ ffmpeg --version
 KP_KEY: '' # your KinopoiskAPIUnoffical Key
 Cookie: '' # gather your cookies from hdrezka
 ```
-- create manifest.yaml file with this structure:
+- create `manifest.yaml` file with this structure:
 ``` yaml
   media_type: # 'tv', 'movie'
     - kp_id: int # u can find it on kinopoisk.ru
