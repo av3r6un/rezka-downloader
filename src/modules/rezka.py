@@ -98,7 +98,7 @@ class Rezka:
       raise ConnectionError('Failed to receive answer from server!')
 
   async def get_movie(self, **kwargs):
-    return await self._make_request('get_movie')
+    return await self._make_request('get_movie', **kwargs)
   
   async def get_episode(self, **kwargs):
-    return await self._make_request('get_stream')
+    return await self._make_request('get_stream', **kwargs)
